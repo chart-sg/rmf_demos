@@ -46,8 +46,7 @@ class DynamicEventActionClient(Node):
 
 
         parser.add_argument(
-            '-id',
-            '--id',
+            'id',
             required=True,
             type=int,
             help='ID to cancel'
