@@ -19,7 +19,7 @@
     </include>
 
     <!-- TinyRobot traffic light fleet adapter -->
-    <include file="$(find-pkg-share rmf_demos)/include/adapters/tinyRobot_mock_traffic_light.launch.xml">
+    <!-- <include file="$(find-pkg-share rmf_demos)/include/adapters/tinyRobot_mock_traffic_light.launch.xml">
       <arg name="fleet_name" value="tinyRobot2"/>
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="nav_graph_file" value="$(find-pkg-share rmf_demos_maps)/maps/office/nav_graphs/0.yaml" />
@@ -28,7 +28,7 @@
       <arg name="robot_prefix" value="tinyRobot2"/>
       <arg name="fleet_name" value="tinyRobot2"/>
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
-    </include>
+    </include> -->
   </group>
 
 </launch>
